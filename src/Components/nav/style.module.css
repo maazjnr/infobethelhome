@@ -1,0 +1,168 @@
+#home {
+  padding: 1vh 50px 1vh 70px;
+  background-color: #fff;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(145, 169, 179, 0.365);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+.logoNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.logoImg {
+  height: 5vh;
+  width: 130px;
+}
+.nav {
+  z-index: 100;
+}
+.navMenu {
+  z-index: 100;
+}
+.navList {
+  display: flex;
+  list-style: none;
+  z-index: 100;
+}
+.navItem :link {
+  text-decoration: none;
+  margin-left: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #1b2930;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.navItem :link:hover {
+  border-bottom-color: #1b2930;
+  border-width: 1px;
+  border-style: ridge;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+.navContainer {
+  display: none;
+}
+
+@media screen and (max-width: 785px) {
+  .navItem :link {
+    text-decoration: none;
+    margin-left: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #1b2930;
+  }
+  #home {
+    padding: 1vh 15px 1vh 20px;
+    background-color: #fff;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(145, 169, 179, 0.365);
+  }
+  .logoImg {
+    height: 40px;
+    width: 120px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #home {
+    padding: 1vh 15px 1vh 30px;
+    background-color: #fff;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .logoNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .navContainer {
+    background-color: transparent;
+    border: none;
+    margin-right: 5px;
+  }
+  .harmb {
+    height: 20px;
+    width: 20px;
+  }
+  .navContainer {
+    display: block;
+    z-index: 1;
+  }
+  .logoImg {
+    height: 35px;
+    width: 100px;
+  }
+  .nav {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    margin-top: 8vh;
+    animation: mobileNav 300ms ease-in;
+  }
+  .navMenu {
+    display: none;
+  }
+  .navList {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+  .navItem :link {
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #1b2930;
+  }
+
+  @keyframes mobileNav {
+    0% {
+      height: 10vh;
+    }
+    50% {
+      height: 20vh;
+    }
+    100% {
+      height: 30vh;
+    }
+  }
+}

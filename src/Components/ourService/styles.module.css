@@ -1,0 +1,383 @@
+.aboutUs {
+  width: 100%;
+}
+.titleContainer {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+.container {
+  width: 50%;
+}
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #1e1e1e;
+}
+.subText {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #999;
+  line-height: 1.6;
+}
+.mainColorContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.colorContainer {
+  width: 75%;
+  height: 540px;
+  position: relative;
+}
+.colorContainer2 {
+  width: 75%;
+  height: 540px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.color {
+  background-color: #e5e1f1;
+  height: 100%;
+  width: 25%;
+}
+.color2 {
+  background-color: #e5e1f1;
+  height: 100%;
+  width: 25%;
+  align-items: flex-end;
+}
+.imageTextConatinera1 {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 17%;
+  max-height: 220px;
+  width: 80%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.imageTextConatinerb1 {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 17%;
+  max-height: 220px;
+  width: 80%;
+  margin-top: 30px;
+  overflow: hidden;
+  flex-direction: row-reverse;
+}
+.imageTextConatinera2 {
+  position: absolute;
+  top: 270px;
+  display: flex;
+  align-items: center;
+  margin-left: 17%;
+  max-height: 220px;
+  width: 80%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.imageTextConatinerb2 {
+  position: absolute;
+  top: 270px;
+  display: flex;
+  align-items: center;
+  margin-right: 17%;
+  max-height: 220px;
+  width: 80%;
+  margin-top: 30px;
+  overflow: hidden;
+  flex-direction: row-reverse;
+}
+
+.accomodationContainer {
+  width: 35%;
+  height: 100%;
+}
+.accomodationImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.serviceTitleConatainer {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+}
+.serviceTitleConatainer2 {
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+}
+.numbercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageContainer {
+  width: 35px;
+  height: 35px;
+  background-image: linear-gradient(to top, #00f3b9, #2187ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.number {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+.serviceTitleCon {
+}
+.serviceText {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.serviceDesc {
+}
+.desc {
+  margin-top: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 1350px) {
+  .titleContainer {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+  }
+  .titleContainer {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+  }
+  .container {
+    width: 80%;
+  }
+  .title {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #1e1e1e;
+  }
+  .subText {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #999;
+    line-height: 1.6;
+  }
+  .mainColorContainer {
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 15px;
+    height: 100%;
+  }
+  .colorContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .colorContainer2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .color {
+    background-color: #e5e1f1;
+    height: 100%;
+    width: 25%;
+    display: none;
+  }
+  .color2 {
+    background-color: #e5e1f1;
+    height: 100%;
+    width: 25%;
+    display: none;
+  }
+  .imageTextConatinera1 {
+    position: initial;
+    top: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: initial;
+    max-height: initial;
+    width: 100%;
+    margin-top: 30px;
+    overflow: initial;
+  }
+  .imageTextConatinerb1 {
+    position: inherit;
+    top: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: initial;
+    max-height: initial;
+    width: 100%;
+    margin-top: 30px;
+    overflow: initial;
+  }
+  .imageTextConatinera2 {
+    position: initial;
+    top: initial;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: initial;
+    max-height: initial;
+    width: 100%;
+    margin-top: 30px;
+    overflow: initial;
+  }
+  .imageTextConatinerb2 {
+    position: initial;
+    top: initial;
+    display: flex;
+    align-items: center;
+    margin-right: initial;
+    max-height: initial;
+    width: 100%;
+    margin-top: 30px;
+    overflow: initial;
+    flex-direction: column;
+  }
+  .accomodationContainer {
+    width: 55%;
+    height: 70%;
+  }
+  .accomodationImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .serviceTitleConatainer {
+    margin-left: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .serviceTitleConatainer2 {
+    margin-right: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .numbercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageContainer {
+    min-width: 40px;
+    min-height: 40px;
+    background-image: linear-gradient(to top, #00f3b9, #2187ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-right: 20px;
+  }
+  .number {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+  }
+  .serviceTitleCon {
+  }
+  .serviceText {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .serviceDesc {
+  }
+  .desc {
+    margin-top: 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+  }
+}

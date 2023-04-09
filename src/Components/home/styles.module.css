@@ -1,0 +1,171 @@
+.homeContainer {
+  height: 75vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 7vh;
+  background: linear-gradient(rgba(5, 5, 5, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://wallpapers.com/images/hd/real-estate-modern-white-house-dcxpp5xsw4e7wqgc.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+}
+.one {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.two {
+  width: 100%;
+  /* background-color: #301b29; */
+}
+.welcome {
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5vw;
+  text-align: center;
+  color: rgb(171, 152, 181);
+  /* opacity: 0.6; */
+}
+
+.semi {
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  text-align: center;
+  color: rgb(234, 219, 101);
+  opacity: 0.6;
+}
+
+.bethel {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vw;
+  text-align: center;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(#eee, #bdb699);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* opacity: 0.3; */
+  resize: none;
+  /* height: 45vh; */
+}
+
+@media screen and (max-width: 450px) {
+  .welcome {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    text-align: center;
+    color: #e7ecef;
+    margin-top: 8px;
+    opacity: 0.8;
+  }
+  .bethel {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vw;
+    text-align: center;
+    letter-spacing: 0.45px;
+    color: #fff;
+    opacity: 0.8;
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+  .one {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .semi {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(234, 219, 101);
+    opacity: 0.6;
+  }
+}
+@media screen and (max-width: 900px) {
+  .welcome {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 8px;
+    opacity: 0.8;
+  }
+  .semi {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(234, 219, 101);
+    opacity: 0.6;
+  }
+  .bethel {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vw;
+    text-align: center;
+    letter-spacing: 0.45px;
+    color: #fff;
+    opacity: 0.8;
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+  .one {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .homeContainer {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #d8effa;
+    margin-top: 9vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .homeContainer {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #d8effa;
+    margin-top: 8vh;
+  }
+}

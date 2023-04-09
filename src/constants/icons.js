@@ -1,0 +1,14 @@
+export const facebook = require("../asset/icon/facebook.png");
+export const instagram = require("../asset/icon/instagram.png");
+export const linkedIn = require("../asset/icon/linkedIn.png");
+export const location = require("../asset/icon/location.png");
+export const mail = require("../asset/icon/mail.png");
+export const phone = require("../asset/icon/phone.png");
+export const twitter = require("../asset/icon/twitter.png");
+export const loc = require("../asset/icon/loc.png");
+export const link = require("../asset/icon/link.png");
+export const mai = require("../asset/icon/mai.png");
+export const twitter2 = require("../asset/icon/twitter2.png");
+export const pho = require("../asset/icon/pho.png");
+export const facebook2 = require("../asset/icon/facebook2.png");
+export const harmb = require("../asset/icon/harmb.png");
