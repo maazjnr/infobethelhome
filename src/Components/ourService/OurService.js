@@ -14,8 +14,8 @@ export const OurService = () => {
         <div className={styles.container}>
           <h2 className={styles.title}>Our Service</h2>
           <p className={styles.subText}>
-            Our team of dedicated proffesionals is committed to creating a warm
-            welcoming environment where residents feels valued and supported. we
+            Our team of dedicated professionals is committed to creating a warm
+            welcoming environment where residents feels valued and supported, we
             offers range of services, including:
           </p>
         </div>
@@ -48,14 +48,14 @@ export const OurService = () => {
                   <h3 className={styles.number}>1</h3>
                 </div>
                 <div className={styles.serviceTitleCon}>
-                  <h3 className={styles.serviceText}>Accomodation</h3>
+                  <h3 className={styles.serviceText}>Accommodation</h3>
                 </div>
               </div>
               <div className={styles.serviceDesc}>
                 <p className={styles.desc}>
-                  We provide Confortable and safe accomodation for our
-                  residents, with a range of option to suit thier individual
-                  needs
+                  We provide Comfortable and safe accommodation for our
+                  residents, with a range of options to suit their individual
+                  needs.
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export const OurService = () => {
               </div>
               <div className={styles.serviceDesc}>
                 <p className={styles.desc}>
-                  Our staffs provides individualize support services to help our
+                  Our staff provides individualize support services to help our
                   residents achieve their goals, including education and career
                   support, life skills training, and emotional support.
                 </p>
@@ -132,7 +132,7 @@ export const OurService = () => {
               </div>
               <div className={styles.serviceDesc}>
                 <p className={styles.desc}>
-                  We believe in the importance of having fun and staying active.
+                  We believe in the importance of having fun and staying active,
                   thats why we offer a range of recreational activities, such as
                   sports, arts and crafts, and movie nights.
                 </p>
