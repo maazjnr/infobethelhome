@@ -63,10 +63,10 @@ export const Contact = () => {
         </div>
         <div className={styles.container}>
           <div className={styles.subText}>
-            <p className={styles.subTextText}>
+            {/* <p className={styles.subTextText}>
               If you have a question, concern, or comment, please don't hesitate
               to reach out to us using one of the methods listed below.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className={styles.container}>
@@ -137,9 +137,10 @@ export const Contact = () => {
                 </div>
                 <a
                   className={styles.addressText}
-                  href="mailto: awillie.jennings@exple.com"
+                  href="mailto:  info@bethelhomeresidential.com
+                  "
                 >
-                  willie.jennings@exple.com
+                  info@bethelhomeresidential.com
                 </a>
               </div>
 

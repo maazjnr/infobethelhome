@@ -18,8 +18,8 @@
   width: 90%;
 }
 .logoImg {
-  height: 5vh;
-  width: 130px;
+  height: 8.5vh;
+  width: 70px;
 }
 .nav {
   z-index: 100;
@@ -113,8 +113,8 @@
     z-index: 1;
   }
   .logoImg {
-    height: 35px;
-    width: 100px;
+    height: 6vh;
+  width: 60px;
   }
   .nav {
     display: flex;

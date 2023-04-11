@@ -127,7 +127,7 @@ export const OurService = () => {
                   <h3 className={styles.number}>3</h3>
                 </div>
                 <div className={styles.serviceTitleCon}>
-                  <h3 className={styles.serviceText}>Reacreational Activities</h3>
+                  <h3 className={styles.serviceText}>Recreational Activities</h3>
                 </div>
               </div>
               <div className={styles.serviceDesc}>
