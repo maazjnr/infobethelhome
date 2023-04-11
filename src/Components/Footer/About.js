@@ -55,9 +55,9 @@ export const About = () => {
           <div>
             <h5 className={styles.title}>Our Services</h5>
             <ul className={styles.list}>
-              <li>Accomodation</li>
+              <li>Accommodation</li>
               <li>Support Service</li>
-              <li>Reacreational Activities</li>
+              <li>Recreational Activities</li>
               <li>Community Involvement</li>
             </ul>
           </div>

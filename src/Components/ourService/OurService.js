@@ -89,7 +89,7 @@ export const OurService = () => {
               </div>
               <div className={styles.serviceDesc}>
                 <p className={styles.desc}>
-                  Our staff provides individualize support services to help our
+                  Our staff provide individualize support services to help our
                   residents achieve their goals, including education and career
                   support, life skills training, and emotional support.
                 </p>
@@ -168,7 +168,7 @@ export const OurService = () => {
               <div className={styles.serviceDesc}>
                 <p className={styles.desc}>
                   We encourage our residents to become involved in the
-                  community, and we provides opportunities for them to volunteer
+                  community, and we provide opportunities for them to volunteer
                   and give back.
                 </p>
               </div>
