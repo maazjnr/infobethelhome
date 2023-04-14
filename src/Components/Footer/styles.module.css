@@ -34,8 +34,8 @@
   margin-top: 20px;
 }
 .icon {
-  width: 21px;
-  height: 21px;
+  width: 2px;
+  height: 2px;
   margin-left: 10px;
 }
 .one {
@@ -58,7 +58,7 @@
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 26px;
   color: #000000;
 }
